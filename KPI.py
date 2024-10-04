@@ -1,0 +1,17 @@
+import pandas as pd 
+import math as m
+accounts = pd.read_csv('D:/PI/accounts.csv') 
+cook_statuses = pd.read_csv('D:/PI/cook_statuses.csv') 
+dishes = pd.read_csv('D:/PI/dishes.csv') 
+dishes_consist = pd.read_csv('D:/PI/dishes_consist.csv') 
+drinkables = pd.read_csv('D:/PI/drinkables.csv') 
+drinkables_consist = pd.read_csv('D:/PI/drinkables_consist.csv') 
+employees = pd.read_csv('D:/PI/employees.csv') 
+ingredients = pd.read_csv('D:/PI/ingredients.csv') 
+menu_groups = pd.read_csv('D:/PI/menu_groups.csv') 
+menu_orders = pd.read_csv('D:/PI/menu_orders.csv') 
+orders_payment = pd.read_csv('D:/PI/orders_payment.csv') 
+orders_service = pd.read_csv('D:/PI/orders_service.csv') 
+payment_statuses = pd.read_csv('D:/PI/payment_statuses.csv') 
+stop_list = pd.read_csv('D:/PI/stop_list.csv') 
+tables_serving = pd.read_csv('D:/PI/tables_serving.csv') 
